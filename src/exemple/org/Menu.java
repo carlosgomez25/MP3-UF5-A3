@@ -42,7 +42,7 @@ public class Menu {
 
                 case "4":
                     llista.stream()
-                        .filter(naixement -> naixement.getNom_Districte().contains("Sant"))
+                        .filter(naixement -> naixement.getNom_Districte().contains("Ciutat"))
                         .forEach(System.out::println);
 
                     break;
